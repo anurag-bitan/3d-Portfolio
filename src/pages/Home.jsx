@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import Loader from '../components/Loader';
 import  Island  from '../models/Island'; // Assuming you have an Island model
 import Bird from '../models/Bird';
-import Sky from '../models/sky'; 
+import Sky from '../models/Sky'; 
 import Plane from '../models/Plane'; 
 import HomeInfo from '../components/HomeInfo';
 import sakura from '../assets/sakura.mp3'
