@@ -76,7 +76,7 @@ const HomeInfo = ({ currentStage }) => {
         download
         className='neo-brutalism-white neo-btn'
       >
-        Viwe My CV
+        View My CV
         <img src={arrow} alt='arrow' className='object-contain w-4 h-4' />
       </a>
     </div>

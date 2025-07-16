@@ -1,4 +1,4 @@
-import {studentManagement, vlogBook,compressorDecompressor,portfol } from "../assets/images";
+import {studentManagement, vlogBook,compressorDecompressor,portfol,tcs } from "../assets/images";
 import {
     car,
     contact,
@@ -116,13 +116,26 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Tata Consultency Services",
+        company_name: "Designation - Systems Engineer",
+        icon: tcs,
+        iconBg: "#E37B2C",
+        date: "August 2023 - June 2025",
+        points: [
+                 "👨‍💼 Led a 5-member team in Agile setup to deliver a full Line of Business system within 8 months.",
+            "🚀 Designed and optimized RESTful Java backend services, boosting processing efficiency by 30%.",
+            "🛠️ Worked extensively on PL/SQL—debugging legacy code and enhancing database procedures for smoother functionality.",
+        ],
+        link: "https://www.tcs.com/"
+    },
+    {
         title: "VlogBook",
         company_name: "A dedicted website for Vlogers",
         icon: vlogBook,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        //date: "March 2020 - April 2021",
         points: [
-             "🧑‍🤝‍🧑 \"We created this web app after surveying around 400 people.\"",
+           "🧑‍🤝‍🧑 \"We created this web app after surveying around 400 people.\"",
             "🧰 \"Tech Used: HTML5, CSS3, JS/ES6, Node.js, MongoDB Atlas.\"",
             "📍 \"By tracking the user's current location, it suggests the best trending places to visit.\"",
             "🤝 \"Learned the importance of code quality and team collaboration by actively participating in peer code reviews during my final year project.\"",
@@ -134,7 +147,7 @@ export const experiences = [
         company_name: "Manage student information in a academic structure",
         icon: studentManagement,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        //date: "Jan 2021 - Feb 2022",
         points: [
            "🖥️ \"Built a desktop application using Java Swing to manage student records with a user-friendly GUI.\"",
             "🧰 \"Tech Used: Java, Java Swing, Object-Oriented Programming.\"",
@@ -149,7 +162,7 @@ export const experiences = [
         company_name: "Compress and Decompress files",
         icon: compressorDecompressor,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        //date: "Jan 2022 - Jan 2023",
         points: [
             "🧠 Designed and implemented a **lossless compression** 📦 as well as **decompression** 🔓",
             "🧰 Tech Used: **Java** ☕, **Java Swing** 🖼️",
@@ -162,7 +175,7 @@ export const experiences = [
         company_name: "A responsive portfolio website",
         icon: portfol,
         iconBg: "#a2d2ff",
-        date: "March 2020 - April 2021",
+        //date: "March 2020 - April 2021",
         points: [
             "🧑‍🎨 Built a fully responsive portfolio website using HTML, CSS, and vanilla JavaScript, showcasing personal projects, skills, and contact information.",
             "🧰 Tech Used: HTML5, CSS3 (Flexbox & Grid), JavaScript (ES6), GitHub Pages",

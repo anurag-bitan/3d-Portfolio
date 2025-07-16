@@ -8,6 +8,7 @@ import vlogBook from './vlogBook.png'
 import compressorDecompressor from './decompressor.png'
 import studentManagement from './studentmanage.png'
 import portfol from './portfol.png'
+import tcs from './tcs.png'
 
 export {
     hero,
@@ -19,5 +20,6 @@ export {
     vlogBook,
     compressorDecompressor,
     studentManagement,
-    portfol
+    portfol,
+    tcs
 }

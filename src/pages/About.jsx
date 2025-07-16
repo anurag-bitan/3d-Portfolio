@@ -12,12 +12,19 @@ const About = () => {
       
       <div>
         <p className='flex gap-3 mt-5-col text-slate-500'>
-          I am a Software Engineer from India with a passion for building innovative solutions. 
-          My journey in software development has been driven by curiosity and a desire to create impactful applications.
+          Hi, I'm Anurag — a tech lover who enjoys solving problems with code. 👋
+
+After finishing my B.Tech in Computer Science, I joined TCS as a Systems Engineer. I worked in the BFSI domain, and within just 8 months, I helped deliver a project that went live successfully. I even led a team of 5 people and managed a Line of Business on my own!
+
+In my daily work, I used tools like PL/SQL , JSP , JavaScript , Jasper Reports , APIs, and a bit of Java. I worked on both backend logic and user interfaces, and I also talked to clients to understand their needs.
+    
+Over time, I learned how to build better software, work in a team, and handle real-world challenges. Now that I’ve moved on from TCS, I’m excited to keep learning and building new things in tech. 🚀
+
+
         </p>
       </div>
       <div className='flex py-10-col'>
-        <h3 className='subhead-text'>I have worked on</h3>
+        <h3 className='subhead-text'>I have experience with</h3>
         
         <div className='flex flex-wrap gap-12 mt-16'>
           {skills.map((skill) => (
@@ -36,12 +43,11 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>My Experience</h3>
+        <h3 className='subhead-text'>My Experience & Projects</h3>
         <div >
           <div className='flex gap-3 mt-5-col text-slate-500'>
             <p>
-              I am a Software Engineer from India with a passion for building innovative solutions. 
-              My journey in software development has been driven by curiosity and a desire to create impactful applications.
+              I've had the opportunity to gain some valuable and exciting experiences so far — and I'm looking forward to many more ahead. Below, you’ll find a snapshot of my journey and the work I've been a part of.
             </p>
           </div>
         </div>
@@ -51,7 +57,7 @@ const About = () => {
             {experiences.map((experience) => (
               <VerticalTimelineElement
                 key={experience.company_name}
-                //date={experience.date}
+                date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex items-center justify-center w-full h-full'>
