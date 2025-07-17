@@ -28,7 +28,7 @@ const Contact = () => {
   const handleBlur = () => setCurrentAnimation("idle");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
     setLoading(true);
     setCurrentAnimation("hit");
 
