@@ -39,7 +39,7 @@ const Contact = () => {
           to_email: "anurag20302001@gmail.com",
           message: form.message,
         },
-        'maM8Fys2yv7SWWHtz'
+        'maM8Fys2yv7SWWHtz',
       )
       .then(
         () => {
