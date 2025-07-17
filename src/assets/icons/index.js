@@ -30,7 +30,7 @@ import plsql from './plsql.svg'
 import cpp from './cpp.svg'
 import sql from './sql.svg'
 import python from './python.svg'
-import java from './java.svg'
+import java from './Java.svg'
 
 export {
     css,

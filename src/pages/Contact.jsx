@@ -1,6 +1,6 @@
 import  emailjs   from '@emailjs/browser';
 import { Canvas } from '@react-three/fiber';
-import { useRef, useState } from 'react'
+import { useRef, useState,useEffect } from 'react'
 import { Suspense } from 'react';
 import Fox from '../models/Fox'; // Assuming you have a Fox model
 import Loader from '../components/Loader'; // Assuming you have a Loader component
@@ -15,6 +15,10 @@ const Contact = () => {
   const [ alert, showAlert, hideAlert ] = useAlert();
   const [loading, setLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("idle");
+  useEffect(() => {
+  emailjs.init('maM8Fys2yv7SWWHtz');
+  }, []);
+
 
   const handleChange = ({ target: { name, value } }) => {
     setForm({ ...form, [name]: value });
@@ -30,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_vb4bzqb',
+        'template_ug0a18a',
         {
           from_name: form.name,
           to_name: "Anurag",
@@ -39,7 +43,7 @@ const Contact = () => {
           to_email: "anurag20302001@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'maM8Fys2yv7SWWHtz',
       )
       .then(
         () => {
