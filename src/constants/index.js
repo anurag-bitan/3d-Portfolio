@@ -27,7 +27,8 @@ import {
     cpp,
     sql,
     python,
-    java
+    java,
+    gfg
 } from "../assets/icons";
 
 export const skills = [
@@ -203,5 +204,10 @@ export const socialLinks = [
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://linkedin.com/in/anurag-bhattacharya-256b351a4',
+    }
+    ,{
+        name: 'GFG',
+        iconUrl: gfg,
+        link: 'https://www.geeksforgeeks.org/user/anuragbhattacharya1/',
     }
 ];

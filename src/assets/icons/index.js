@@ -31,6 +31,7 @@ import cpp from './cpp.svg'
 import sql from './sql.svg'
 import python from './python.svg'
 import java from './Java.svg'
+import gfg from './gfg.svg'
 
 
 export {
@@ -66,5 +67,6 @@ export {
     cpp,
     sql,
     python,
-    java
+    java,
+    gfg
 }
