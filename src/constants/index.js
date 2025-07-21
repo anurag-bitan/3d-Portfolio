@@ -28,7 +28,8 @@ import {
     sql,
     python,
     java,
-    gfg
+    gfg,
+    accio
 } from "../assets/icons";
 
 export const skills = [
@@ -209,5 +210,10 @@ export const socialLinks = [
         name: 'GFG',
         iconUrl: gfg,
         link: 'https://www.geeksforgeeks.org/user/anuragbhattacharya1/',
+    }
+    ,{
+        name: 'Acciojob',
+        iconUrl: accio,
+        link: 'https://storage.googleapis.com/acciojob-user-content/profileShareLink/e9d38d96-2407-43e9-a058-9caa33cfa1db-anurag20302001@gmail.com2025-07-21T15:19:24.922Z.jpeg',
     }
 ];

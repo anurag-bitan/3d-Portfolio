@@ -32,7 +32,7 @@ import sql from './sql.svg'
 import python from './python.svg'
 import java from './Java.svg'
 import gfg from './gfg.svg'
-
+import accio from './acciojob.svg'
 
 export {
     css,
@@ -68,5 +68,6 @@ export {
     sql,
     python,
     java,
-    gfg
+    gfg,
+    accio,
 }
