@@ -1,4 +1,4 @@
-import {studentManagement, vlogBook,compressorDecompressor,portfol,tcs } from "../assets/images";
+import {studentManagement, vlogBook,compressorDecompressor,portfol,tcs,luffy } from "../assets/images";
 import {
     car,
     contact,
@@ -129,6 +129,21 @@ export const experiences = [
             "🛠️ Worked extensively on PL/SQL—debugging legacy code and enhancing database procedures for smoother functionality.",
         ],
         link: "https://www.tcs.com/"
+    },
+    {
+        title: "Manhwa.ai",
+        company_name: "AI-Powered Video Creation Platform",
+        icon: luffy, // Make sure to import your logo/icon variable
+        iconBg: "#383E56",
+        //date: "Oct 2025 - Present",
+        points: [
+            "🚀 \"Engineered a hybrid AI platform that transforms static Manga PDFs into narrated cinematic videos.\"",
+            "🧰 \"Tech Used: FastAPI, React.js, FFmpeg.wasm, Docker, Supabase, Google Gemini, python.\"",
+            "⚡ \"Implemented client-side video rendering via WebAssembly, effectively reducing backend GPU infrastructure costs to zero.\"",
+            "🤖 \"Integrated multimodal LLMs to analyze visual context and auto-generate engaging 'Hinglish' narration scripts.\"",
+            "☁️ \"Deployed scalable microservices on Google Cloud Run with automated CI/CD pipelines for reliable delivery.\"",
+        ],
+        link: "https://manhwa-ai-theta.vercel.app/"
     },
     {
         title: "VlogBook",

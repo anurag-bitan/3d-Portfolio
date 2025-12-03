@@ -9,6 +9,7 @@ import compressorDecompressor from './decompressor.png'
 import studentManagement from './studentmanage.png'
 import portfol from './portfol.png'
 import tcs from './tcs.png'
+import luffy from './luffy.png'
 
 export {
     hero,
@@ -21,5 +22,6 @@ export {
     compressorDecompressor,
     studentManagement,
     portfol,
-    tcs
+    tcs,
+    luffy,
 }

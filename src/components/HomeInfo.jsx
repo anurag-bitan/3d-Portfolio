@@ -45,7 +45,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='mx-2 font-semibold text-white'>Anurag</span>
         👋
         <br />
-        A Software Engineer from India
+        A Full Stack Developer experienced in REST APIs, MERN stack, Java, Springboot.
       </h1>
     );
 
